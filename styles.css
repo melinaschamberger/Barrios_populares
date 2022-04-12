@@ -1,0 +1,46 @@
+/*Background colour of entire app*/
+body {
+  background-color: #EFEFEF;
+}
+
+/*Colour hyperlinks*/
+a {
+  color: #ff3b3f;
+}
+
+a:hover {
+  color: #ff3b3f;
+}
+
+/*Slider input customisation*/
+.irs-bar {
+    height: 8px;
+    top: 25px;
+    border-top: 1px solid #ff3b3f;
+    border-bottom: 1px solid #ff3b3f;
+    background: #ff3b3f;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #ff3b3f;
+    font-size: 11px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 3px;
+    background: #ff3b3f;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.irs-grid-text {
+    bottom: 5px;
+    color: #852D2C;
+}
+
+/*Select box customisation*/
+.selectize-input.focus {
+    border-color: #852D2C;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px #852D2C,0 0 8px #852D2C;
+    box-shadow: inset 0 1px 1px #852D2C,0 0 8px #852D2C;
+}
